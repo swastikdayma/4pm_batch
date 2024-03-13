@@ -200,6 +200,108 @@ const prompt = require("prompt-sync")()
 
 
 
+// const arr =[1,2,4,5,6,7] ;
+// arr.forEach((value)=>{
+//     console.log(value*2)
+// })
+// console.log(arr)
+
+
+
+// let name2 = arr.map((value,index)=>{
+//     return value
+// })
+// console.log(name2)
+
+// let arr2= arr.filter((value)=>{
+//  return value==2;
+// })
+
+// console.log(arr2)
+
+
+// const arr =[1,2,2,3,2,2,2,2,4,5,6,7,8];
+
+// let arr2 = arr.reduce((prev,current)=>{
+//     return prev + current
+// })
+// console.log(arr2)
+
+
+
+//hoisting 
+
+//-----------------------------------------
+// add()
+
+// function add(){
+//     add2()
+//    function add2(){
+//     let a = 'swastik';
+//     console.log(a)
+//    }
+//    function add3(){
+//     console.log(a)
+//    }
+// add3()
+ 
+
+// }
+
+
+
+
+const obj = {
+    firstName: "swastik",
+    lastName:"dayma",
+   
+   }
+
+ function fullname(){
+    return this.firstName + " "+ this.lastName
+}
+
+let print = fullname.call(obj)
+console.log(print)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
