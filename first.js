@@ -1,5 +1,6 @@
 // let age = prompt("enter your age: ")
-const prompt = require("prompt-sync")()
+// const prompt = require("prompt-sync")()
+
 
 // let age = prompt(" enter age: ")
 // if(age >= 18 && age < 70){
@@ -7,12 +8,12 @@ const prompt = require("prompt-sync")()
 // }
 // else if(age >=70){
 //   console.log("akele mat aana baccho ke saath aana")
-// }
+// }                           
 // else{
 //   console.log("no you cannot")
-// }
+// }    
 
-
+                                  
 // let Number1= parseFloat(prompt("enter first number: "));
 // let operator = prompt("enter operator +, -, /, * : ");
 // let Number2 =  parseFloat(prompt("enter sceond number: "));
@@ -193,10 +194,22 @@ const prompt = require("prompt-sync")()
 
 // const arry  = [1, 2, 4 ,5,6,7, 4, 6, 7]
 
+// const arry1 = arry.shift()
+// console.log(arry1)
+// console.log(arry)
+
+
+
+
+
+
+
 // let length = arry.splice(2, 0, "hello");
 // console.log(length);
 // arry[1]= "hello"
 // console.log(arry);
+
+
 
 
 
@@ -234,45 +247,119 @@ const prompt = require("prompt-sync")()
 //-----------------------------------------
 // add()
 
-// function add(){
-//     add2()
-//    function add2(){
-//     let a = 'swastik';
-//     console.log(a)
-//    }
-//    function add3(){
-//     console.log(a)
-//    }
-// add3()
+function add(){
+    
+  var a = "swastik"
+  console.log(a)
+   }
+
  
 
+
+
+
+
+
+
+// const obj = {
+//     firstName: "swastik",
+//     lastName:"dayma",
+   
+//    }
+
+   
+//    const obj1 = {
+//     firstName: "hello",
+//     lastName:"hii",
+
+//  }
+
+
+//  function fullname(city, state){
+//     return this.firstName + " "+ this.lastName+ " "+ city+ " "+ state;
+// }
+
+// console.log(fullname.call(obj, "jaipur", "rajasthan")) 
+
+
+//  console.log(fullname.apply(obj, ["jaipur", "rajasthan"])) 
+
+
+
+//  let bind = fullname.bind(obj, "jaipur", "rajasthan")
+//  console.log(bind())
+
+
+//  const obj = {
+//     firstName: "swastik",
+//     lastName:"dayma",
+//    }
+
+//    for(let x in obj){
+//     console.log(x)
+//    }
+
+//    for(let x of Object.entries(obj)){
+//     console.log(x)
+//    }
+
+
+//    for(let x in obj){
+//     console.log(x)
+//    }
+
+//    for(let x in obj){
+//    console.log(obj[x])
+//    }
+
+// console.log(obj["firstName"])
+
+
+
+// for( let  x in obj){
+//     console.log(obj[x])
 // }
 
 
 
-
-const obj = {
-    firstName: "swastik",
-    lastName:"dayma",
-   
-   }
-
- function fullname(){
-    return this.firstName + " "+ this.lastName
-}
-
-let print = fullname.call(obj)
-console.log(print)
+// const arr = [1 , 3, ["swastik", 1]]
 
 
 
+// console.log(arr[2][1])
 
 
 
+// const arr= [ 1 ,3 , 4 ,
+//     [1 ,3 ,5, 
+//       ['swastik', "swastika" ,[1 ,3 , ["anjali", ["kritika", ['mranalika', ["nikita", ['aditi']
+//   ]
+// ]
+// ]
+// ]
+// ] 
+//   ]
+// ], 
+// ]
 
 
+// const array = [{
+//     firstName: "swastik",
+//     lastName:"dayma",
+// },
+// {
+//     firstName: "swastik",
+//     lastName:"dayma",
+// },
+// {
+//     firstName: "swastik",
+//     lastName:"dayma",
+// }]
 
+// console.log(array[2]["lastName"])
 
+// const date= new Date()
+// console.log(date)
 
 
 
